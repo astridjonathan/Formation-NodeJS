@@ -2,15 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be1533fd-fbe3-49ca-b84d-bcf1eb80379a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exoJS/.idea/exoJS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exoJS/program.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exoJS/views/html/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exoJS/views/html/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exoJS/views/html/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exoJS/views/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/db_contact.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/application.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/response.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/router/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/router/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/express/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nodemon/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/browser/nunjucks-slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/browser/nunjucks-slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/browser/nunjucks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/browser/nunjucks.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/samples/express/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/samples/express/js/extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/samples/express/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/samples/express/pre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/compiler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/environment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/express-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/globals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/jinja-compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/lexer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/lib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/loaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/node-loaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/nodes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/precompile-global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/precompile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/precompiled-loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/transformer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/nunjucks/src/web-loaders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-express.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/components/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/components/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/html/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/html/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/html/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +101,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="package.json" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -29,17 +111,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RFC0t2EOF2Q1ikXSD2phL126ZU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.10.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/layout" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS\views\layout" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS" />
     </key>
@@ -68,6 +157,8 @@
       <updated>1569253236436</updated>
       <workItem from="1569253238823" duration="7256000" />
       <workItem from="1569329471052" duration="8769000" />
+      <workItem from="1569414426273" duration="3588000" />
+      <workItem from="1569419491070" duration="17440000" />
     </task>
     <servers />
   </component>
@@ -86,5 +177,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

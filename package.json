@@ -5,9 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server-node.js"
+    "start": "node server-node.js",
+    "server": "nodemon server-express.js"
   },
   "keywords": [],
   "author": "Astrid JONATHAN",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0"
+  }
 }
