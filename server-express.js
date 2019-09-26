@@ -29,8 +29,9 @@ app.get('/contacts', (req, res) => {
 });
 app.get('/contact', (req, res) => {
     res.render('html/contact.html');
-
-
+});
+app.get('/login', (req, res) => {
+    res.render('html/login.html');
 });
 
 /**

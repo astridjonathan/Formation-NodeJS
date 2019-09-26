@@ -1,0 +1,43 @@
+{% extends "layout/base.html" %}
+
+{% block title %} Se connecter {% endblock %}
+
+
+
+{% block content %}
+<div class="container fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+      </div>
+  
+      <!-- Login Form -->
+     
+      <form>
+        <div class="form-group">
+          
+          <input type="email" id="login"  class="form-control fadeIn second" name="login" placeholder="login">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          
+          <input type="password" id="password" class="form-control fadeIn third"" i name="login" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-warning form-control-lg fadeIn fourth" value="Log In">Submit</button>
+      </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="#">Forgot Password?</a>
+      </div>
+  
+    </div>
+  </div>
+{% endblock %}
