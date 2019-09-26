@@ -1,0 +1,52 @@
+{% extends "layout/base.html" %}
+
+{% block title %} Ajouter un contact {% endblock %}
+
+
+
+{% block content %}
+        <div class="container">
+
+            <div class="card shadow-sm border-warning m-4 p-3">
+                <form id="formContact" novalidate method="POST">
+                    <h1> Ajouter un contact </h1>
+                    <hr class="border-top border-warning my-3">
+
+                    <label for="prenom" class="grey-text font-weight-light">Votre Prénom</label>
+                    <input type="text" id="prenom" name="prenom" class="form-control">
+                    <div class="invalid-feedback">
+                        Vous devez saisir votre prénom
+                    </div>
+                    <br>
+                    <label for="nom" class="grey-text font-weight-light">Votre Nom</label>
+                    <input type="text" id="nom" name="nom"class="form-control">
+                    <div class="invalid-feedback">
+                        Vous devez saisir votre nom
+                    </div>
+                    <br>
+
+                    <label for="email" class="grey-text font-weight-light">Adresse email</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                    <div class="invalid-feedback">
+                        Vous devez saisir votre email
+                    </div>
+                    <br>
+                    <label for="tel" class="grey-text font-weight-light">Téléphone</label>
+                    <input type="tel" id="tel" name="tel" class="form-control">
+                    <div class="invalid-feedback">
+                        Vous devez saisir votre tel
+                    </div>
+
+                    <div class="text-center py-4 mt-3">
+                        <button class="btn btn-outline-warning" id="envoyer" type="submit">Ajouter un Contact<i
+                                class="fa fa-paper-plane-o ml-2"></i></button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+
+
+{% endblock %}

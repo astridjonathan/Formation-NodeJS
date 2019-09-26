@@ -1,7 +1,7 @@
 {% extends "layout/base.html" %}
 
 {% block title %} Mes Contacts{% endblock %}
-{% set page_id = 'contacts' %}
+
 
 
 {% block content %}
@@ -12,40 +12,24 @@
                     <div class="card shadow-sm">
                         <table class="table table-bordered table-dark">
                             <thead>
-                            <tr class="bg-primary" >
-                                <th scope="col">#</th>
-                                <th scope="col">Prénom</th>
-                                <th scope="col">Nom</th>
-                                <th scope="col">Email</th>
-                                <th scope="col">Téléphone</th>
-                                <th scope="col">Photo de Profil</th>
-                            </tr>
+                                <tr class="bg-warning" >
+                                    <th scope="col">Prénom</th>
+                                    <th scope="col">Nom</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Téléphone</th>
+                                    <th scope="col">Action</th>
+                                </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>ghhhd@mdo.fr</td>
-                                <th scope="col">0690 451 451</th>
-                                <th scope="col"><img src="https://image.ibb.co/f5Kehq/bio-image.jpg" alt=""></th>
-                            </tr>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Léna</td>
-                                <td>BROISSON</td>
-                                <td>fffaaad@mdo.fr</td>
-                                <th scope="col">0690 451 451</th>
-                                <th scope="col"><img src="https://image.ibb.co/f5Kehq/bio-image.jpg" alt=""></th>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Rosemael</td>
-                                <td>ANTHONY</td>
-                                <td>fgghghhhd@mdo.fr</td>
-                                <th scope="col">0690 451 451</th>
-                                <th scope="col"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvzOpl3-kqfNbPcA_u_qEZcSuvu5Je4Ce_FkTMMjxhB-J1wWin-Q" alt=""></th>
-                            </tr>
+                                {% for contact in contacts %}
+                                    <tr>
+                                        <td>{{ contact.prenom }}</td>
+                                        <td>{{ contact.nom }}</td>
+                                        <td>{{ contact.email }}</td>
+                                        <td>{{ contact.tel }}</td>
+                                        <td><button type="button"><a class="btn-outline-purple p-2" href="profil">Editer profil</a></button></td>
+                                    </tr>
+                                {% endfor %}
 
                             </tbody>
                         </table>
