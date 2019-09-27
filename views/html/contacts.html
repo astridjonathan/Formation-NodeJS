@@ -11,8 +11,9 @@
                 <div class="col">
                     <div class="card shadow-sm">
                         <table class="table table-bordered table-dark">
-                            <thead>
+                            <thead class="text-center">
                                 <tr class="bg-warning" >
+                                    <th scope="col">#</th>
                                     <th scope="col">Prénom</th>
                                     <th scope="col">Nom</th>
                                     <th scope="col">Email</th>
@@ -20,15 +21,30 @@
                                     <th scope="col">Action</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody class="text-center">
                                 {% for contact in contacts %}
                                     <tr>
+                                        <td>{{ contact.id }}</td>
                                         <td>{{ contact.prenom }}</td>
                                         <td>{{ contact.nom }}</td>
                                         <td>{{ contact.email }}</td>
                                         <td>{{ contact.tel }}</td>
-                                        <td><button type="button"><a class="btn-outline-purple p-2" href="profil">Editer profil</a></button></td>
+                                        <td>
+                                            <a href="/contact/{{ contact.id }}"><i class="fas fa-eye text-white"></i></a>
+                                            <a onclick="return confirm ('Etes vous sur ?')"
+                                               href="/contact/{{ contact.id }}/edit">
+                                                <i class="fas fa-user-edit text-white"></i>
+                                            </a>
+                                            <a href="/contact/{{ contact.id }}/delete"><i class="far fa-trash-alt text-white"></i></a>
+                                        </td>
                                     </tr>
+                                {% else %}
+                                    <tr>
+                                        <td colspan="6">
+                                            <p class="text-center">Aucun contact pour le moment</p>
+                                        </td>
+                                    </tr>
+
                                 {% endfor %}
 
                             </tbody>

@@ -1,20 +1,35 @@
 {% extends "layout/base.html" %}
 
 {% block title %} Contact{% endblock %}
-{% set page_id = 'contact' %}
+
 
 
 {% block content %}
-    <div class="container">
-        <div class="col">
-            <div class="jumbotron mt-4r">
-                {% for unContact in unContact %}
-                <h1 class="display-4"> {{ unContact.prenom }} {{ unContact.nom }}</h1>
+    <div class="container mx-auto">
+        <div class="row">
+            <div class="jumbotron my-4">
+                <div class="col">
+                    <h1 class="display-4"> {{ contact.prenom }} {{ contact.nom }}</h1>
+                    <hr class="my-4">
+                </div>
+                <div class="container align-middle">
+                    <div class="row">
+                         <div class="col-8 pt-5">
+                            <p class="lead"><strong>Email: </strong>{{ contact.email }}</p>
+                            <p class="lead"><strong>Téléphone: </strong>{{ contact.tel }}</p>
+                        </div>
+                       <div class="col-4">
+                           <img class="text-center float-right img-fluid" src="{{ qrCodeUrl }}" alt="vCard">
+                       </div>
+                    </div>
+                </div>
                 <hr class="my-4">
-                <p class="lead"><strong>Email:</strong>{{ unContact.email }}</p>
-                <p class="lead"><strong>Téléphone:</strong>{{ unContact.email }} </p>
+                <div class="text-center">
+                    <a class="btn btn-sm btn-warning" href="/contacts"><i class="fas fa-list"></i>Retourner aux contacts</a>
+                    <a class="btn btn-sm btn-danger" href="/contact/{{ contact.id }}/delete"><i class="fas fa-list"></i>Supprimer le contact</a>
+                </div>
             </div>
-            {% endfor %}
+
         </div>
     </div>
 

@@ -1,0 +1,77 @@
+COURS NODE.JS
+
+ASYNCHRONE XHR dans network de l'éléménet
+
+
+commander command sur linux
+ -- lister les fichiers et dossiers
+		ls
+
+-- vider historique 
+	ctrl+l ou cls ou clear
+
+-- Déplacer ou aller dans un autre dossier
+	cd
+ cd c:\xampp\htdocs\ on use tab
+	cd .. => pour remonter d'un cran
+
+
+-- Créer un répertoire mkdir make directory
+	mkdir 
+-- Supprimer un répertoire 
+	rmdir 
+
+
+-- Créer un fichier
+	touch
+-- Supprimer un fichier
+	rm
+
+-- ouvrir le dossier dans un explorateur
+	start .
+
+-- ouvrir le dossier dans visual studio code
+	code .
+
+npm init -y => permet d'initialiser un nouveau projet nodejs
+
+json contient des données sous forme d'objet 
+
+package json =< informations sur le projet 
+informations sur les librairies installées ex si on installe jquery est une dependance du projet
+
+
+dans package.json dans script on met une virgule puis on tape
+ "start": "node server-node.js"
+dans la commander on tape now : npm start
+
+
+alt+j pour sélectionner plusieurs te
+
+.container>.col>.jumbotron>h1.display-4{Accueil}+p.lead{Gérez vos contacts facilement.}+hr.my-4
+ul>(li.list>a[href=#$]{Lien $})*5
+
+
+pour autostart server js
+nodemon 
+ou pm2 npm install pm2 -g 
+
+
+--save permet de mettre une dependance dans mon projet par ex
+pour express => il faut absolument installer ce module
+=> sur package.json
+
+creation de ma base mongo db
+user:
+db_admin
+BR3kpUS1bDft2Mkg
+
+mongodb+srv://db_admin:BR3kpUS1bDft2Mkg@cluster0-ecxk7.gcp.mongodb.net/test?retryWrites=true&w=majority
+
+
+pour créer un filtre |filtre ex |dump
+
+body parser permet de manipuler les données
+
+API est une interface de programmation avec des fonctions pour récupéréer des données sur une base externe
+ postman et insomia api

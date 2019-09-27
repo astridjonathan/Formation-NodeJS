@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1533fd-fbe3-49ca-b84d-bcf1eb80379a" name="Default Changelist" comment="" />
+    <list default="true" id="be1533fd-fbe3-49ca-b84d-bcf1eb80379a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NODEJS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/js/bundles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/contacts.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/contacts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-express.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-express.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/components/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/components/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/html/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/html/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/html/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/html/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/html/login copy.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/html/login copy.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +50,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS\views\js" />
-      <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS\myapp" />
-      <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS\views\html" />
       <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS\myapp" />
       <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS\views\layout" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS" />
+      <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS\views\js" />
+      <recent name="C:\xampp\htdocs\wf3-gp\Formation-NodeJS\myapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,6 +88,7 @@
       <workItem from="1569414426273" duration="3588000" />
       <workItem from="1569419491070" duration="17680000" />
       <workItem from="1569500312422" duration="21253000" />
+      <workItem from="1569585360256" duration="22260000" />
     </task>
     <servers />
   </component>
