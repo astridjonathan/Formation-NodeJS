@@ -57,6 +57,11 @@ const qrCode = require('qrcode');
  */
 
 
+/**
+ * Permet la génération des vCards
+ * @type {{generate: (function(*): {birthday, lastName, note, role, gender, workEmail, formattedName, nameSuffix, source, title, uid, getFormattedString, getMajorVersion, saveToFile, namePrefix, nickname, logo, email, homeFax, homeAddress, homePhone, photo, workFax, workAddress, version, url, firstName, pagerPhone, organization, workUrl, middleName, workPhone, socialUrls, cellPhone})}}
+ */
+
 
 app.get('/', (req, res) => {
     //res.sendFile(__dirname('/views/html/index.html'));
@@ -141,10 +146,11 @@ app.get('/contact/:id/delete', (req, res) => {
 
 
 app.get('/editContact/:id', (req, res) => {
-    var Contact= db.get('contacts')
+    const Contact = req.body;
 
-    Contact.find({ id: req.params.id }, (err, contact) => {
-        if(err) console.log(err);
+
+    Contact.find({ id: req.params.id }, contact) => {
+
         res.render('/editContact',{'contact': contact});
     });
    
@@ -154,13 +160,20 @@ app.get('/editContact/:id', (req, res) => {
 
 
 app.put('/editContact/:id', (req, res) => {
+
     const errors = validationResult(req);
-    var Contact= db.get('contacts')
-   
+    const Contact= db
+        .get('contacts')
+        .find({ id: req.params.id })
+        .value()
+    findByIdAndUpdate(req.params.id,{$set: {description : req.body.description}}, {new:true} , function(err,user){
+
     if (errors.isEmpty()) {
-        Contact.find({ id: req.params.id }, {$set: req.body}, (err, contact) => {
+       // Contact.findByIdAndUpdate({$set: req.body}, (err, contact) => {
+            Contact.find(req.params.id,{$set: {prenom : req.body.prenom}}, {new:true} , function(err,user){
+
             if(err) console.log(err);
-            alert('Le contact a bien été mis à jour !');
+            alert('Le contact a été mis à jour !');
             // Redirection
             res.redirect('/contact/' + contact.id);
         });
@@ -170,7 +183,6 @@ app.put('/editContact/:id', (req, res) => {
             Contact.assign('contact')
             .write()
             res.render('/edit-contact', {
-                'title' : 'Editer une Fiche',
                 'contact': contact,
                 'errors': errors.array()
             });
