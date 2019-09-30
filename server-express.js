@@ -139,6 +139,46 @@ app.get('/contact/:id/delete', (req, res) => {
     res.redirect("/contacts");
 });
 
+
+app.get('/editContact/:id', (req, res) => {
+    var Contact= db.get('contacts')
+
+    Contact.find({ id: req.params.id }, (err, contact) => {
+        if(err) console.log(err);
+        res.render('/editContact',{'contact': contact});
+    });
+   
+    
+}); 
+
+
+
+app.put('/editContact/:id', (req, res) => {
+    const errors = validationResult(req);
+    var Contact= db.get('contacts')
+   
+    if (errors.isEmpty()) {
+        Contact.find({ id: req.params.id }, {$set: req.body}, (err, contact) => {
+            if(err) console.log(err);
+            alert('Le contact a bien été mis à jour !');
+            // Redirection
+            res.redirect('/contact/' + contact.id);
+        });
+    } else {
+        Contact.find(req.params.id, (err, contact) => {
+            if(err) console.log(err);
+            Contact.assign('contact')
+            .write()
+            res.render('/edit-contact', {
+                'title' : 'Editer une Fiche',
+                'contact': contact,
+                'errors': errors.array()
+            });
+        });
+    };
+});
+
+
 /**
  * Création d'une api
  * */

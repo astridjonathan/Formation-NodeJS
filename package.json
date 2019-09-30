@@ -12,7 +12,7 @@
   "author": "Astrid JONATHAN",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^1.19.2"
+    "nodemon": "^1.19.3"
   },
   "dependencies": {
     "bcrypt": "^3.0.6",
@@ -22,6 +22,8 @@
     "lowdb": "^1.0.0",
     "nunjucks": "^3.2.0",
     "qrcode": "^1.4.2",
+    "to": "^0.2.9",
+    "update": "^0.7.4",
     "vcards-js": "^2.10.0"
   }
 }

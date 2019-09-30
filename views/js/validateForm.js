@@ -6,10 +6,10 @@ $(function(){
         // 2b. Réinitialisation des erreurs
         $('#formContact .alert-danger').remove();
         // ---3 RFécupérer les éléments à verifier
-        const nom = $('#nom');
-        const prenom = $('#prenom');
-        const email = $('#email');
-        const tel = $('#tel');
+        const nom = $('input[name="name"]');
+        const prenom = $('input[name="prenom"]');
+        const email = $('input[name="email"]');
+        const tel = $('input[name="tel"]');
 
         // ---4 Vérification des champs
 
